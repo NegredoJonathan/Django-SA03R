@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>historia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-image: url('{% static "app_aula/img/historia.jpg" %}');
+            background-size: center; /* Alteração aqui */
+            background-position: center center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita a repetição da imagem */
+            color: #fff;
+            padding: 100px 20px 20px; /* Altere o valor da primeira propriedade (100px) para ajustar a distância da parte superior */
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0 0 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo escuro semitransparente para o título */
+            padding: 20px;
+            display: inline-block; /* Permite que o fundo se ajuste ao tamanho do texto */
+        }
+        h3 {
+            margin: 0 0 30px; /* Remove a margem padrão */
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .games {
+            list-style-type: none;
+            padding: 0;
+        }
+        .games li {
+            margin-bottom: 40px;
+        }
+        .games img {
+            width: 600px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .games-details {
+            margin-left: 20px;
+        }
+    </style>
+    <style>
+        .image {
+            float: left; /* Flutua a imagem para a esquerda */
+            margin-right: 20px; /* Adiciona uma margem à direita da imagem para separá-la do texto */
+        }
+    
+        /* Estilo para o texto à direita da imagem */
+        .text {
+            overflow: hidden; /* Para evitar que o texto se sobreponha à imagem */
+        }
+        h2 {
+            text-align: center; /* Centraliza o texto */
+            margin-top: 0;
+        }
+    
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Legend of Zelda</h1>
+        <h3>Uma saga épica de aventuras</h3>
+        
+    </header>
+    <div class="container">
+        <ul class="games">
+            <h2>História de The Legend Of Zelda</h2>
+            <form action="/home" style="display: inline;">
+                <button type="submit">Home</button>
+            </form>
+            <form action="/sobre" style="display: inline;">
+                <button type="submit">Games</button>
+            </form>
+            <form action="/historia" style="display: inline;">
+                <button type="submit">Historia</button>
+            </form>
+        </ul>
+        <div>
+            <h2>Descubra mais sobre Link, Zelda, Ganon E a Master Sword</h2>
+    <div class="text">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/7/7d/Princesa_Zelda_arte_Hyrule_Warriors_Age_of_Calamity.png" alt="Triforce" width="150" height="130" class="image">
+        <p>The Legend of Zelda é uma série de jogos eletrônicos da Nintendo, criada em 1986 por Shigeru Miyamoto e Takashi Tezuka. Os jogos se passam no reino de Hyrule, em um cenário de fantasia.</p>
+    </div>
+    <br>
+    <div class="text">
+        <img src="https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0b/TLoZ_Series_Royal_Crest_Artwork.png/1200px-TLoZ_Series_Royal_Crest_Artwork.png" alt="Triforce" width="150" height="130" class="image">
+        <p>A franquia concentra-se em títulos focados no gênero ação e aventura, além de RPG de ação e resolução de quebra-cabeças. A série é protagonizada por Link, um jovem herói pertencente à raça Hylian, que tem um vínculo próximo com a Princesa Zelda.
+
+        </p>
+    </div>
+    <br>
+    <div class="text">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Triforce.svg" alt="Triforce" width="150" height="130" class="image">
+        <p>A Triforce é uma relíquia deixada pelas deusas criadoras do reino: Din, Farore e Nayru, representando as virtudes da Coragem, Sabedoria e Poder, respectivamente. Seu objetivo principal é salvar a princesa e deter o mal que deseja destruir o reino.
+
+        </p>
+    </div>
+    </div>
+    <br>
+    <div class="text">
+        <img src="https://www.pokemonmillennium.net/wp-content/uploads/2017/04/The-Legend-of-Zelda-Link-e-Zelda.jpg" alt="Triforce" width="150" height="130" class="image">
+        <p>Sinta-se a vontade para navegar pelo site e descobrir sobre todas as aventuras de Link e Zelda pelos diversos Reinos de Hyrule e suas linhas do tempo. Quebrando a cabeça para encontrar a Master Sword e derrotar o grande mal Ganon.
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+<body> 
+</html>    
